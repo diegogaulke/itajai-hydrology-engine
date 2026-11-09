@@ -1,0 +1,45 @@
+# Binaries and build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+*.out
+coverage.txt
+
+# Go workspace file
+go.work
+
+# Dependency directories (if vendoring)
+vendor/
+
+# Local databases and runtime data
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Environment and sensitive files
+.env
+.env.local
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
